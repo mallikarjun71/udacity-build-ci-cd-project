@@ -113,4 +113,5 @@ jobs:
           CI: true
 
       - name: Build Docker image
-        run: docker build -t movie-picg
+        run: docker build -t movie-picg .
+        
